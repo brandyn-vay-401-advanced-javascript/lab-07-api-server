@@ -11,7 +11,7 @@ describe('web server', () => {
     return mockRequest
       .get('/foo')
       .then(results => {
-        expect(results.status).toBe(500);
+        expect(results.status).toBe(404);
       }).catch(console.error);
 
   });

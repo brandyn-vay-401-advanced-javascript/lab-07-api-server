@@ -5,8 +5,8 @@
 ### Author: Brandyn Vay
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/brandyn-vay-401-advanced-javascript/lab-07-api-server/pull/4)
+* [travis](https://travis-ci.com/brandyn-vay-401-advanced-javascript/lab-07-api-server)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 

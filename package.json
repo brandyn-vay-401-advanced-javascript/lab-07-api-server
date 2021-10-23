@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +22,8 @@
     "mongodb-memory-server": "^5.1.5",
     "mongoose": "^5.6.4",
     "superagent": "^4.0.0-beta.5",
-    "supertest": "^3.4.2"
+    "supertest": "^3.4.2",
+    "@snyk/protect": "latest"
   },
   "directories": {
     "lib": "lib"
@@ -32,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/brandyn-vay-401-advanced-javascript/lab-07-api-server/issues"
   },
-  "homepage": "https://github.com/brandyn-vay-401-advanced-javascript/lab-07-api-server#readme"
+  "homepage": "https://github.com/brandyn-vay-401-advanced-javascript/lab-07-api-server#readme",
+  "snyk": true
 }
